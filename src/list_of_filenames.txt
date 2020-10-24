@@ -1,0 +1,3 @@
+--- Content removed due to copyright ---
+
+Should contain a list of filenames to be read and sent to server for comparison.
