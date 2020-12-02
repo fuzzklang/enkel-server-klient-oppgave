@@ -1,6 +1,6 @@
 Hjemmeeksamen i introduksjonsfag til operativsystemer og nettverk.
 
-På grunn av opphavsrett kan ikke oppgaveteksten og utleverte filer publiseres. Programmet er derfor ikke kjørbart (mangler gyldige input-filer).
+**OBS!** På grunn av opphavsrett kan ikke oppgaveteksten og utleverte filer publiseres. **Programmet er derfor ikke kjørbart (mangler bl.a. gyldige input-filer).**
 
 Et par av funksjonene er handouts og er derfor blitt fjernet fra kildekoden.
 
