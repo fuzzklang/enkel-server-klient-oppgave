@@ -16,24 +16,10 @@ static float loss_probability = 0.0f;
 
 void set_loss_probability( float x )
 {
-    loss_probability = x;
+		// Removed due to copyright
 }
 
 ssize_t send_packet( int sock, const char* buffer, size_t size, int flags, const struct sockaddr* addr, socklen_t addrlen )
 {
-    float rnd = drand48();
-
-    if( !(buffer[6] & 0x4) && /* Ignore termination packets. */
-	    (rnd < loss_probability) )
-    {
-        fprintf(stderr, RED "Randomly dropping a packet"NRM"\n");
-        return size;
-    }
-
-    return sendto( sock,
-                   buffer,
-                   size,
-                   flags,
-                   addr,
-                   addrlen );
+		// Removed due to copyright
 }
