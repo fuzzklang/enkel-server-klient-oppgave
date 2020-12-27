@@ -4,14 +4,14 @@ Hjemmeeksamen i introduksjonsfag til operativsystemer og nettverk.
 
 Et par av funksjonene er handouts og er derfor blitt fjernet fra kildekoden.
 
-Setter opp en enkel server og klient. Klienten sender filer (her: bilder) til server ved hjelp av en protokoll implementert for anledningen. Server sjekker om mottatt fil matcher en lokal fil skriver resultat til en output-fil.
+Setter opp en enkel server og klient. Klienten sender filer (her: bilder) til server ved hjelp av en protokoll implementert for anledningen. Server sjekker om mottatt fil matcher en lokal fil og skriver resultatet til en output-fil.
 Protokollen er bygget på UDP og skal håndtere pakketap (med Go-Back-N). Har også Flow Control.
 Filstørrelsene er slik at de kan rommes av én UDP-frame.
 
 # Bruk
 
 Klienten avslutter hvis kommandolinje-argumentet "filnavn" ikke er et gyldig filnavn.
-Men internt, når den leser filene oppgitt i filnavnlisten ignorerer den ugyldige filnavn, istedenfor å avbryte kjøring.
+Internt, når den leser filene oppgitt i filnavnlisten ignorerer den ugyldige filnavn, istedenfor å avbryte kjøring.
 
 Antar at tapsprosent-argumentet er en int.
 Gjør konvertering internt fra int til float.
